@@ -1,37 +1,37 @@
 #EXTM3U
-# Ayman Arabic TV v2 - public/free streams only
-# Updated 2026-09-22 after Egyptian-channel recheck
-# Public live streams can change, stop, or be geo-blocked without notice.
-#EXTINF:-1 tvg-id="CBC.eg" tvg-name="CBC" group-title="🇪🇬 Egypt — Fallback / recheck",CBC
+# Ayman Arabic TV v3 - expanded public/free Arabic playlist
+# Updated 2026-09-23
+# Christian religious channels explicitly removed per user preference.
+# Egypt first, then Rotana, MBC, and the rest of the Arab channels.
+# Some public streams may be geo-blocked or may change without notice.
+#EXTINF:-1 tvg-id="ElsharqTV.tr@SD" tvg-name="Elsharq TV" group-title="🇪🇬 Egypt",Elsharq TV
+https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MBCMasrDrama.sa@SD" tvg-name="MBC Masr Drama" group-title="🇪🇬 Egypt",MBC Masr Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-id="CBC.eg" tvg-name="CBC" group-title="🇪🇬 Egypt",CBC
 https://flu.systemnet.tv/CBC/index.m3u8
-#EXTINF:-1 tvg-id="CBCDrama.eg" tvg-name="CBC Drama" group-title="🇪🇬 Egypt — Fallback / recheck",CBC Drama
+#EXTINF:-1 tvg-id="CBCDrama.eg" tvg-name="CBC Drama" group-title="🇪🇬 Egypt",CBC Drama
 https://flu.systemnet.tv/CBCDrama/index.m3u8
-#EXTINF:-1 tvg-id="CBCSofra.eg" tvg-name="CBC Sofra" group-title="🇪🇬 Egypt — Fallback / recheck",CBC Sofra
+#EXTINF:-1 tvg-id="CBCSofra.eg" tvg-name="CBC Sofra" group-title="🇪🇬 Egypt",CBC Sofra
 https://flu.systemnet.tv/CBCSofra/index.m3u8
+#EXTINF:-1 tvg-id="TenTV.eg" tvg-name="TEN TV" group-title="🇪🇬 Egypt",TEN TV
+https://weyyak-live.akamaized.net/weyyak_ten_tv/index.m3u8
+#EXTINF:-1 tvg-id="AlQaheraNews.eg" tvg-name="Al Qahera News" group-title="🇪🇬 Egypt",Al Qahera News
+https://bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/playlist.m3u8
+#EXTINF:-1 tvg-id="AlGhadPlus.eg" tvg-name="Al Ghad Plus" group-title="🇪🇬 Egypt",Al Ghad Plus
+https://playlist.fasttvcdn.com/pl/ykvm3f2fhokwxqsurp9xcg/alghad-plus/playlist.m3u8
+#EXTINF:-1 tvg-id="NogoumFMTV.eg" tvg-name="Nogoum FM TV" group-title="🇪🇬 Egypt",Nogoum FM TV
+https://nogoumtv.nrpstream.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MBC1Egypt.eg" tvg-name="MBC 1 Egypt" group-title="🇪🇬 Egypt",MBC 1 Egypt
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr1.eg" tvg-name="MBC Masr" group-title="🇪🇬 Egypt",MBC Masr
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr2.eg" tvg-name="MBC Masr 2" group-title="🇪🇬 Egypt",MBC Masr 2
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
-#EXTINF:-1 tvg-id="AlhayatTV.eg" tvg-name="Alhayat TV" group-title="🇪🇬 Egypt — Fallback / recheck",Alhayat TV
-https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="TenTV.eg" tvg-name="TEN TV" group-title="🇪🇬 Egypt — Fallback / recheck",TEN TV
-https://weyyak-live.akamaized.net/weyyak_ten_tv/index.m3u8
 #EXTINF:-1 tvg-id="AlNaharDrama.eg" tvg-name="Al-Nahar Drama" group-title="🇪🇬 Egypt — Fallback / recheck",Al-Nahar Drama
 https://fl1002.bozztv.com/ga-alnahardrama/index.m3u8
-#EXTINF:-1 tvg-id="AlQaheraNews.eg" tvg-name="Al Qahera News" group-title="🇪🇬 Egypt — Fallback / recheck",Al Qahera News
-https://bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/playlist.m3u8
 #EXTINF:-1 tvg-id="AlGhadTV.eg" tvg-name="Al Ghad TV" group-title="🇪🇬 Egypt",Al Ghad TV
 https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
-#EXTINF:-1 tvg-id="AlGhadPlus.eg" tvg-name="Al Ghad Plus" group-title="🇪🇬 Egypt — Fallback / recheck",Al Ghad Plus
-https://playlist.fasttvcdn.com/pl/ykvm3f2fhokwxqsurp9xcg/alghad-plus/playlist.m3u8
-#EXTINF:-1 tvg-id="AghapyTV.eg" tvg-name="Aghapy TV" group-title="🇪🇬 Egypt",Aghapy TV
-https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ATVSat.eg" tvg-name="ATVSat" group-title="🇪🇬 Egypt",ATVSat
-https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CopticTV.eg" tvg-name="Coptic TV" group-title="🇪🇬 Egypt",Coptic TV
-https://ctv.icopts.app/CTV/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="ElRadio9090FM.eg" tvg-name="El Radio 9090 FM" group-title="🇪🇬 Egypt",El Radio 9090 FM
 https://9090video.mobtada.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HudaTV.eg" tvg-name="Huda TV" group-title="🇪🇬 Egypt",Huda TV
@@ -42,43 +42,50 @@ https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg" tvg-name="Watan TV" group-title="🇪🇬 Egypt",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RotanaCinemaEgypt.eg" tvg-name="Rotana Cinema Egypt" group-title="🇪🇬 Egypt",Rotana Cinema Egypt
-https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="NogoumFMTV.eg" tvg-name="Nogoum FM TV" group-title="🇪🇬 Egypt",Nogoum FM TV
-https://stream-speed.extremesolution.mobi/nogoumfm/nogoumfmlive/playlist.m3u8
-#EXTINF:-1 tvg-id="TheKingdomSat.eg" tvg-name="The Kingdom Sat" group-title="🇪🇬 Egypt",The Kingdom Sat
-https://bcovlive-a.akamaihd.net/87f7c114719b4646b7c4263c26515cf3/eu-central-1/6008340466001/profile_0/chunklist.m3u8
-# --- Newly added / refreshed channels (2026-09-22) ---
 #EXTINF:-1 tvg-id="Mazzika.eg" tvg-name="Mazzika" group-title="🇪🇬 Egypt — Current Public",Mazzika
 http://149.100.11.235:8080/Mazzika/index.m3u8
 #EXTINF:-1 tvg-id="AlMasriyah.eg" tvg-name="Al Masriyah" group-title="🇪🇬 Egypt — Current Public",Al Masriyah
 http://185.9.2.18/chid_247/index.m3u8
 #EXTINF:-1 tvg-id="MixHollywood.eg" tvg-name="Mix Hollywood" group-title="🇪🇬 Egypt — Current Public",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
+#EXTINF:-1 tvg-id="RotanaCinemaKSA.sa" tvg-name="Rotana Cinema KSA" group-title="📺 Rotana",Rotana Cinema KSA
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaCinemaEgypt.eg" tvg-name="Rotana Cinema Egypt" group-title="📺 Rotana",Rotana Cinema Egypt
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaComedy.sa" tvg-name="Rotana Comedy" group-title="📺 Rotana",Rotana Comedy
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaClassic.sa" tvg-name="Rotana Classic" group-title="📺 Rotana",Rotana Classic
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaDrama.sa" tvg-name="Rotana Drama" group-title="📺 Rotana",Rotana Drama
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaKhalijia.sa" tvg-name="Rotana Khalijia" group-title="📺 Rotana",Rotana Khalijia
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaClip.sa" tvg-name="Rotana Clip" group-title="📺 Rotana",Rotana Clip
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaMusic.sa" tvg-name="Rotana Music" group-title="📺 Rotana",Rotana Music
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al Resalah" group-title="📺 Rotana",Al Resalah
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="LBC.sa" tvg-name="LBC (Rotana)" group-title="📺 Rotana",LBC (Rotana)
+#EXTVLCOPT:http-referrer=https://rotana.net/
+https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaKids.sa" tvg-name="Rotana Kids" group-title="📺 Rotana",Rotana Kids
+https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8
+#EXTINF:-1 tvg-id="RotanaAflamPlus.sa" tvg-name="Rotana Aflam+" group-title="📺 Rotana",Rotana Aflam+
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8
+#EXTINF:-1 tvg-id="MBCMood.sa" tvg-name="MBC Mood" group-title="📺 MBC",MBC Mood
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasrUSA.us" tvg-name="MBC Masr USA" group-title="📺 MBC",MBC Masr USA
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8
-#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-name="Al Sunnah Al Nabawiyah TV" group-title="🇸🇦 Saudi Arabia",Al Sunnah Al Nabawiyah TV
-https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" group-title="🌍 Arab News",Al Jazeera Arabic
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" tvg-name="Al Jazeera Mubasher" group-title="🌍 Arab News",Al Jazeera Mubasher
-https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-name="Al Jazeera Documentary" group-title="🌍 Arab Documentary",Al Jazeera Documentary
-https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
-#EXTINF:-1 tvg-id="AlArabiya.ae" tvg-name="Al Arabiya" group-title="🌍 Arab News",Al Arabiya
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlArabiyaAlHadath.ae" tvg-name="Al Hadath" group-title="🌍 Arab News",Al Hadath
-https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SkyNewsArabia.ae" tvg-name="Sky News Arabia" group-title="🌍 Arab News",Sky News Arabia
-https://stream.skynewsarabia.com/hls/sna.m3u8
-#EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" group-title="🌍 Arab News",France 24 Arabic
-https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
-#EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" group-title="🌍 Arab News",TRT Arabi
-https://tv-trtarabi.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-name="Alaraby TV" group-title="🌍 Arab News",Alaraby TV
-https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CGTNArabic.cn" tvg-name="CGTN Arabic" group-title="🌍 Arab News",CGTN Arabic
-https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 #EXTINF:-1 tvg-id="MBC.ae" tvg-name="MBC 1 KSA" group-title="📺 MBC",MBC 1 KSA
 https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index.m3u8
 #EXTINF:-1 tvg-id="MBC2.ae" tvg-name="MBC 2" group-title="📺 MBC",MBC 2
@@ -103,6 +110,70 @@ https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af
 https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8
 #EXTINF:-1 tvg-id="Wanasah.ae" tvg-name="Wanasah" group-title="📺 MBC",Wanasah
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+#EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-name="Al Ekhbariya" group-title="🇸🇦 Saudi Arabia",Al Ekhbariya
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+#EXTINF:-1 tvg-id="AlSaudiya.sa" tvg-name="Al Saudiya" group-title="🇸🇦 Saudi Arabia",Al Saudiya
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+#EXTINF:-1 tvg-id="AlSaudiyaAlaan.sa" tvg-name="Al Saudiya Alaan" group-title="🇸🇦 Saudi Arabia",Al Saudiya Alaan
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
+#EXTINF:-1 tvg-id="SaudiThaqafiyaTV.sa" tvg-name="Saudi Thaqafiya TV" group-title="🇸🇦 Saudi Arabia",Saudi Thaqafiya TV
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
+#EXTINF:-1 tvg-id="SBC.sa" tvg-name="SBC" group-title="🇸🇦 Saudi Arabia",SBC
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+#EXTINF:-1 tvg-id="AsharqNews.sa" tvg-name="Asharq News" group-title="🌍 Arab News",Asharq News
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-id="AsharqDiscovery.sa" tvg-name="Asharq Discovery" group-title="🌍 Arabic Documentary",Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="AsharqDocumentary.sa" tvg-name="Asharq Documentary" group-title="🌍 Arabic Documentary",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="BigTimePlus.sa" tvg-name="Big Time Plus" group-title="🇸🇦 Saudi Arabia",Big Time Plus
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkArabic.ae" tvg-name="Cartoon Network Arabic" group-title="🧒 Kids Arabic",Cartoon Network Arabic
+https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+#EXTINF:-1 tvg-id="WeyyakAction.ae" tvg-name="Weyyak Action" group-title="🇦🇪 UAE",Weyyak Action
+https://weyyak-live.akamaized.net/weyyak_action/index.m3u8
+#EXTINF:-1 tvg-id="AjmanTV.ae" tvg-name="Ajman TV" group-title="🇦🇪 UAE",Ajman TV
+https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaBusiness.ae" tvg-name="Al Arabiya Business" group-title="🌍 Arab News",Al Arabiya Business
+https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae" tvg-name="Al Arabiya Programs" group-title="🌍 Arab News",Al Arabiya Programs
+https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlWoustaTV.ae" tvg-name="Al Wousta TV" group-title="🇦🇪 UAE",Al Wousta TV
+https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlYaumTV.ae" tvg-name="Al Yaum TV" group-title="🇦🇪 UAE",Al Yaum TV
+https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8
+#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-name="CNBC Arabiya" group-title="🌍 Arab News",CNBC Arabiya
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+#EXTINF:-1 tvg-id="FujairahTV.ae" tvg-name="Fujairah TV" group-title="🇦🇪 UAE",Fujairah TV
+https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Sharjah2.ae" tvg-name="Sharjah 2" group-title="🇦🇪 UAE",Sharjah 2
+https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SharjahSports.ae" tvg-name="Sharjah Sports" group-title="🇦🇪 UAE",Sharjah Sports
+https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SharjahTV.ae" tvg-name="Sharjah TV" group-title="🇦🇪 UAE",Sharjah TV
+https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa" tvg-name="Al Sunnah Al Nabawiyah TV" group-title="🇸🇦 Saudi Arabia",Al Sunnah Al Nabawiyah TV
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" group-title="🌍 Arab News",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" tvg-name="Al Jazeera Mubasher" group-title="🌍 Arab News",Al Jazeera Mubasher
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-name="Al Jazeera Documentary" group-title="🌍 Arab Documentary",Al Jazeera Documentary
+https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
+#EXTINF:-1 tvg-id="AlArabiya.ae" tvg-name="Al Arabiya" group-title="🌍 Arab News",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaAlHadath.ae" tvg-name="Al Hadath" group-title="🌍 Arab News",Al Hadath
+https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabia.ae" tvg-name="Sky News Arabia" group-title="🌍 Arab News",Sky News Arabia
+https://stream.skynewsarabia.com/hls/sna.m3u8
+#EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" group-title="🌍 Arab News",France 24 Arabic
+https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" group-title="🌍 Arab News",TRT Arabi
+https://tv-trtarabi.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-name="Alaraby TV" group-title="🌍 Arab News",Alaraby TV
+https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNArabic.cn" tvg-name="CGTN Arabic" group-title="🌍 Arab News",CGTN Arabic
+https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 #EXTINF:-1 tvg-id="AbuDhabiAloula.ae" tvg-name="Abu Dhabi Aloula" group-title="🇦🇪 UAE",Abu Dhabi Aloula
 https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AbuDhabiDrama.ae" tvg-name="Abu Dhabi Drama" group-title="🇦🇪 UAE",Abu Dhabi Drama
@@ -137,18 +208,6 @@ https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8
 https://weyyak-live.akamaized.net/weyyak_zee_alwan/index.m3u8
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-name="Al Quran Al Kareem TV" group-title="🇸🇦 Saudi Arabia",Al Quran Al Kareem TV
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/saudi_quran/hls1/saudi_quran.m3u8
-#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" group-title="🇸🇦 Saudi Arabia",Al-Resalah
-https://shls-rotana-alresalah-prod-dub.shahid.net/out/v1/936b89606b5e48db8ca28caa40adc886/index.m3u8
-#EXTINF:-1 tvg-id="RotanaCinemaHDKSA.sa" tvg-name="Rotana Cinema KSA" group-title="🇸🇦 Saudi Arabia",Rotana Cinema KSA
-https://shls-rotanacinema-ksa-prod-dub.shahid.net/out/v1/6cee1c57ea7841e697eb15cefc98e0a6/index.m3u8
-#EXTINF:-1 tvg-id="RotanaCinemaHD.sa" tvg-name="Rotana Cinema Egypt Feed" group-title="🇸🇦 Saudi Arabia",Rotana Cinema Egypt Feed
-https://shls-rotanacinema-egy-prod-dub.shahid.net/out/v1/c39c0ecbcbdb46e890e91106776397a8/index.m3u8
-#EXTINF:-1 tvg-id="RotanaClassic.sa" tvg-name="Rotana Classic" group-title="🇸🇦 Saudi Arabia",Rotana Classic
-https://shls-rotanaclassic-prod-dub.shahid.net/out/v1/4eebed211c8441228321b4f67a46c5a5/index.m3u8
-#EXTINF:-1 tvg-id="RotanaDrama.sa" tvg-name="Rotana Drama" group-title="🇸🇦 Saudi Arabia",Rotana Drama
-https://shls-rotanadrama-prod-dub.shahid.net/out/v1/20c617b40dc743589ecc9d08d9d3345d/index.m3u8
-#EXTINF:-1 tvg-id="RotanaPlus.sa" tvg-name="Rotana+" group-title="🇸🇦 Saudi Arabia",Rotana+
-https://shls-rotanaplus-prod-dub.shahid.net/out/v1/1fc6103458be480b96e6a574b00fe1c0/index.m3u8
 #EXTINF:-1 tvg-id="AtfalWaMawaheb.sa" tvg-name="Atfal Wa Mawaheb" group-title="🇸🇦 Saudi Arabia",Atfal Wa Mawaheb
 https://5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV1.kw" tvg-name="KTV 1" group-title="🇰🇼 Kuwait",KTV 1
