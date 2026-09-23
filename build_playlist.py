@@ -36,18 +36,18 @@ CUSTOM = [
     ('MBC Masr Drama','MBCMasrDrama.sa','🇪🇬 Egypt','https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8',None),
 
     # Rotana
-    ('Rotana Cinema KSA','RotanaCinemaKSA.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Cinema Egypt','RotanaCinemaEgypt.eg','📺 Rotana','https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Comedy','RotanaComedy.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Classic','RotanaClassic.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Drama','RotanaDrama.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Khalijia','RotanaKhalijia.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Clip','RotanaClip.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Music','RotanaMusic.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Al Resalah','AlResalah.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('LBC (Rotana)','LBC.sa','📺 Rotana','https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
-    ('Rotana Kids','RotanaKids.sa','📺 Rotana','https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8',None),
-    ('Rotana Aflam+','RotanaAflamPlus.sa','📺 Rotana','https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8',None),
+    ('Rotana Cinema KSA','RotanaCinemaKSA.sa','Rotana','https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Cinema Egypt','RotanaCinemaEgypt.eg','Rotana','https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Comedy','RotanaComedy.sa','Rotana','https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Classic','RotanaClassic.sa','Rotana','https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Drama','RotanaDrama.sa','Rotana','https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Khalijia','RotanaKhalijia.sa','Rotana','https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Clip','RotanaClip.sa','Rotana','https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Music','RotanaMusic.sa','Rotana','https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Al Resalah','AlResalah.sa','Rotana','https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('LBC (Rotana)','LBC.sa','Rotana','https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8','https://rotana.net/'),
+    ('Rotana Kids','RotanaKids.sa','Rotana','https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8',None),
+    ('Rotana Aflam+','RotanaAflamPlus.sa','Rotana','https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8',None),
 ]
 
 COUNTRY_GROUP = {
@@ -118,7 +118,7 @@ def valid_url(url):
 def group_for(e):
     name=get_name(e['meta'])
     if name.lower().startswith('rotana ') or name.lower().startswith('rotana+'):
-        return '📺 Rotana'
+        return 'Rotana'
     if name.lower().startswith('mbc ') or name.lower().startswith('mbc+'):
         # keep Egyptian MBC feeds in Egypt if their id/name says Masr
         if 'masr' in name.lower():
@@ -182,7 +182,7 @@ for e in entries:
         best[key]=e
 
 group_order = {
-    '🇪🇬 Egypt':0,'📺 Rotana':1,'📺 MBC':2,
+    '🇪🇬 Egypt':0,'Rotana':1,'📺 MBC':2,
     '🇸🇦 Saudi Arabia':3,'🇦🇪 UAE':4,'🇶🇦 Qatar':5,'🇰🇼 Kuwait':6,
     '🇧🇭 Bahrain':7,'🇴🇲 Oman':8,'🇯🇴 Jordan':9,'🇱🇧 Lebanon':10,
     '🇵🇸 Palestine':11,'🇮🇶 Iraq':12,'🇸🇾 Syria':13,'🇾🇪 Yemen':14,
