@@ -458,7 +458,7 @@ http://htvmada.mada.ps:8888/nabluslive/index.m3u8
 https://pbc.furrera.ps/PalestineEDU/index.m3u8
 #EXTINF:-1 tvg-id="PalestineToday.ps@SD" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="🇵🇸 Palestine",Palestine Today (480p) [Geo-blocked]
 https://live.paltodaytv.com/paltv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="QudsunaTV.ps@HD" tvg-logo="https://drive.google.com/file/d/1LEl-AhX5HZmP05kfBk4fwSmtJyPjVT3x/view?usp=drive_link" group-title="🇵🇸 Palestine",Qudsuna TV (1080i)
+#EXTINF:-1 tvg-id="QudsunaTV.ps@HD" tvg-logo="https://i.imgur.com/rzRs0ed.png" group-title="🇵🇸 Palestine",Qudsuna TV (1080i)
 https://qudsunatv-live.cdnnew.com/qudsunatv/qudsuna.m3u8
 #EXTINF:-1 tvg-id="RadioAlbaladTV.ps@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png" group-title="🇵🇸 Palestine",Radio Albalad TV (720p)
 http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
@@ -1015,8 +1015,6 @@ https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
 http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us@SD" tvg-logo="https://i.imgur.com/UcAwBep.png" group-title="🌍 Arabic International",UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
-#EXTINF:-1 tvg-id="VilayetTV.az@SD" tvg-logo="https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png" group-title="🌍 Arabic International",Vilayet TV
-https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" group-title="🌍 Arabic International",WildEarth (1080p)
 https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
 #EXTINF:-1 tvg-id="WION.in@SD" tvg-logo="https://i.imgur.com/Wc5Z3iS.png" group-title="🌍 Arabic International",WION (1080p)
